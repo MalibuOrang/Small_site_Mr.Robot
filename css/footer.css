@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Suez+One&display=swap');
+
+ /* Футер сайта*/
+footer{
+	float: left;
+	background-color: #343434;
+	width: 98%;
+	padding: 1%;
+	border-top: 5px solid #59595a;
+	font-family: 'Suez One', cursive;
+}
+#site_name {
+	margin-right: 5%;
+	color: white;
+	font-size: 1.2em;
+	float:right;
+}
+#site_name>span {
+	font-family: 'Suez One', bold;
+}
+@media(max-width:1080px){
+	#clear{
+		clear:both;
+	}
+}
+#footer_menu{
+	font-size: 1.1em;
+}
+#footer_menu>a{
+	color: #f4f4f4;
+	font-size: 1.1em;
+	margin-left:2%;
+	color: #f4f4f4;
+}
+#footer_menu>a:hover,#rights>a:hover {
+	border-bottom: 1px solid silver;
+	color: #aeaeae;
+}
+#rights{
+float:left;
+margin-left: 9%;
+font-size: 1.1em;
+margin-top: 20px;
+}
+#rights>a {
+color: white;
+	
+}
+#social {
+float: right;
+width: 40%;
+margin-right: 5%;
+margin-top: 10px;
+}
+#social>a{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background-color: rgba(217,91,72,1);
+	margin-left:2%;
+	width: 30px;
+	height: 30px;
+	float: right;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+#social>a:hover{
+	background-color: rgba(1, 123, 146);
+}
+@media (max-width: 520px){
+#site_name{
+	display: none;
+}	
+#social{
+	width: 100%;
+}	
+
+}

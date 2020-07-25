@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Suez+One&display=swap');
+
+/*Конец стилей для шапки сайта*/
+#wrapper{
+	display: flex;
+	flex-direction:column;
+	height: 100%;
+}
+#content {
+	flex: 1 0 auto;
+}
+p{
+	color:black;
+     font-weight:bold;
+	font-family: 'Chilanka', cursive;
+	font-size: 1em;
+	margin: 40px;
+	text-align: left;
+}
+h2{
+	color:black;
+	font-weight:bold;
+	font-family: 'Suez One', cursive;
+	font-size: 1.9em;
+	text-align: left;
+	padding-left:40px;
+
+}
+h3{
+	font-family: 'Chilanka', cursive;
+	text-align: left;
+	margin-left: 40px;
+}
+h4{
+	font-size: 1.4em;
+	text-align: left;
+}
+li{
+	font-size: 0.9em;
+	margin-left: 50px;
+	font-family: 'Suez One', cursive;
+}
+#obratni #leftCol input {
+    width:40%;
+    margin-left:30%;
+    float:left;
+    border-radius:5px;
+    border: 2px solid silver;
+    padding:5px;
+    color:orange;
+	margin-bottom:5px;
+	font-family: 'Suez One', cursive;
+	margin-top:10px;
+ }
+ #obratni #leftCol input:focus {
+border: 2px solid green;
+ }
+ #obratni #leftCol input:hover {
+	 border: 2px solid olive;
+	 cursor:pointer;
+ }
+ #obratni #leftCol textarea {
+	 width:55%;
+	 height:150px;
+    margin-left:23%;
+    float:left;
+    border-radius:5px;
+    border: 2px solid silver;
+    padding:5px;
+    color:orange;
+	margin-bottom:10px;
+	resize:none;
+	font-family: 'Suez One', cursive;
+ }
+ #obratni #leftCol textarea:focus {
+	border: 2px solid green;
+ }
+ #obratni #leftCol textarea:hover {
+	border: 2px solid olive;
+	 cursor:pointer;	 
+ }
+ #obratni #leftCol #messageShow {
+	  font-size: 0.9em;
+	  float: left;
+	  color: red;
+	  width: 100%;
+	  text-align: center;
+	  font-family: 'Suez One', cursive;
+ }
+ #basetext {
+  text-align:center;
+   font-family: 'Suez One', cursive;
+   color: red;
+}
+
+
+
